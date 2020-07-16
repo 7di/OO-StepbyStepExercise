@@ -26,9 +26,9 @@ public class Person {
     }
 
     public String introduce() {
-     // System.out.println("My name is" + name + ". I am " + age + " years old.");
-      String answer = "My name is " + name + ". I am " + age + " years old.";
-        return answer;
+     System.out.println("My name is" + name + ". I am " + age + " years old.");
+      //String answer = "My name is " + name + ". I am " + age + " years old.";
+      return "My name is " + name + ". I am " + age + " years old.";
     }
 
 

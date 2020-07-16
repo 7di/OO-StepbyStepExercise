@@ -18,8 +18,8 @@ public class Teacher extends Person {
 
     @Override
     public String introduce() {
-        super.introduce();
-        System.out.println("I am a " + job + ".");
-        return null;
+
+        //System.out.println(super.introduce()+"I am a " + job + ".");
+        return super.introduce()+" I am a " + job + ".";
     }
 }

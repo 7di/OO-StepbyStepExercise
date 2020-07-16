@@ -18,8 +18,6 @@ public class Student extends Person {
 
     @Override
     public String introduce() {
-        super.introduce();
-        System.out.println(" I am a Student of Class"+classNumber+".");
-        return null;
+        return super.introduce()+" I am a Student of Class "+classNumber+".";
     }
 }
