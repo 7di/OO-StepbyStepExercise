@@ -7,8 +7,10 @@ import static org.junit.Assert.*;
 public class StudentTest {
     @Test
     public void student_test() {
+        ClassRoom classRoom = new ClassRoom();
+        classRoom.setClsNumber(2);
         //given
-        Person student = new Student("Tom", 21, 2);
+        Person student = new Student("Tom", 21, classRoom);
         //when
         String talk = student.introduce();
         //then
